@@ -21,10 +21,10 @@ export function Navbar() {
                 <div className="d-flex align-items-center gap-3">
                     <Nav>
                         <NavLink to="/" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-                            Store
+                            Store Section
                         </NavLink>
                         <NavLink to="/admin" className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}>
-                            Admin
+                            Admin User
                         </NavLink>
                     </Nav>
 
